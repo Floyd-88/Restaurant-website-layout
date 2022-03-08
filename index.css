@@ -135,8 +135,14 @@ footer {
 
 .css_footer_google_aple_shop {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     justify-content: center;
     border-bottom: 2px solid rgba(85, 87, 88, 0.5);
+}
+
+.css_footer_google {
+    margin-left: 1rem;
 }
 
 .css_footer_copyright {
@@ -154,4 +160,36 @@ footer {
     height: 80px;
     background-color: green;
     margin: 2rem;
+}
+
+
+/* Медиа-запросы */
+
+@media (max-width: 991px) {
+    .css_header_navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .css_search {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .css_restaurans_Moscow {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .css_restaurans {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .css_footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .css_header_navbar_basket {
+        display: none;
+    }
 }
