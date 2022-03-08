@@ -2,15 +2,35 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.css_main {
+    background-color: black;
+}
+
 .css_header {
+    background: black;
+    padding-bottom: 0px;
+    padding-top: 0px;
     width: 100%;
-    margin-bottom: 1rem;
-    padding: 0.5rem 0 0.5rem 0rem;
     box-shadow: 0 6px 10px rgb(0 0 0 / 11%);
 }
 
-main {
-    background: #FFFFFF;
+.css_header_navbar {
+    background: white;
+    padding-bottom: 16px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.css_main {
+    background-color: black;
+}
+
+.css_search {
+    margin-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 4rem;
+    background-color: #FFFFFF;
 }
 
 .css_search_form {
@@ -20,28 +40,40 @@ main {
     ;
 }
 
-.container_restauran {
+.css_restaurans_Moscow {
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: #FFFFFF;
 }
 
-.container_restauran:hover {
+.css_restaurans {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #FFFFFF;
+}
+
+.css_restaurans_cards {
+    background-color: #FFFFFF;
+}
+
+.css_restaurans_cards:hover {
     background-color: rgb(117, 117, 117, 0.04);
 }
 
-.container_restaurant_cards img {
+.css_restaurants_cards_foto img {
     width: 100%;
     min-height: 21rem;
 }
 
-.container_restaurant_info {
+.css_restaurants_info {
     margin-top: 1.5rem;
 }
 
-.container_restaurant_info h5 {
+.css_restaurants_info h5 {
     margin-bottom: 0.5rem;
 }
 
-.container_restaurant_info_food {
+.css_restaurants_info_food {
     margin-bottom: 0.5rem;
     color: #626262;
 }
@@ -51,6 +83,12 @@ main {
 }
 
 footer {
+    background-color: black;
+}
+
+.css_footer {
+    padding-left: 5rem;
+    padding-right: 5rem;
     background-color: #262626;
 }
 
@@ -60,9 +98,8 @@ footer {
 
 .css_footer_links {
     border-bottom: 2px solid rgba(85, 87, 88, 0.5);
+    font-size: 15px;
 }
-
-.css_footer_links {}
 
 .css_footer_language {
     text-align: left;
@@ -104,4 +141,17 @@ footer {
 
 .css_footer_copyright {
     font-size: 11px;
+}
+
+.footer_css_ap_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    margin: 2rem;
 }
