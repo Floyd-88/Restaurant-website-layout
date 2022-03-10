@@ -1,0 +1,125 @@
+.css_restaurant {
+    padding: 5rem 0px 0px 0;
+    background-image: url(img_pushkin/photo/photo.png);
+    height: 430px;
+    background-origin: content-box;
+    background-repeat: round;
+}
+
+.css_restaurant_name {
+    background-color: white;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    height: 200px;
+}
+
+.css_restaurant_name h1 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.css_restaurant_additional_info_style {
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+}
+
+.css_restaurant_additional_info {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 3rem;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.css_restaurant_additional_info_time {
+    border: 1px solid black;
+    color: white;
+    background: black;
+    border-radius: 30px;
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.css_restaurant_additional_info_time p {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.css_nav_menu {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: white;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.nav_snacks {
+    padding-left: 0;
+}
+
+.css_nav_menu_view {
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+}
+
+.css_nav_menu_view:hover {
+    font-weight: 700;
+    color: #327430;
+}
+
+.css_nav_menu_view:focus {
+    color: #327430;
+    font-weight: 700;
+}
+
+.css_food {
+    padding-bottom: 5rem;
+}
+
+.css_food_card {
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    flex-direction: row-reverse;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.css_food_card:hover {
+    background-color: rgb(117, 117, 117, 0.04);
+}
+
+.css_food_foto {
+    margin: -1px;
+}
+
+.css_food_info {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.css_food_name h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.css_food_composition {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.css_food_price {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+}
