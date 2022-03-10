@@ -1,4 +1,4 @@
-.css_restaurant {
+.css_restauran {
     padding: 5rem 0px 0px 0;
     background-image: url(img_pushkin/photo/photo.png);
     height: 430px;
@@ -6,26 +6,26 @@
     background-repeat: round;
 }
 
-.css_restaurant_name {
+.css_restauran_name {
     background-color: white;
     margin-right: 5rem;
     margin-top: 5rem;
     height: 200px;
 }
 
-.css_restaurant_name h1 {
+.css_restauran_name h1 {
     font-size: 36px;
     text-align: center;
     padding-top: 2rem;
 }
 
-.css_restaurant_additional_info_style {
+.css_restauran_additional_info_style {
     font-size: 14px;
     line-height: 16px;
     color: #626262;
 }
 
-.css_restaurant_additional_info {
+.css_restauran_additional_info {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -34,7 +34,7 @@
     line-height: 15px;
 }
 
-.css_restaurant_additional_info_time {
+.css_restauran_additional_info_time {
     border: 1px solid black;
     color: white;
     background: black;
@@ -45,7 +45,7 @@
     justify-content: center;
 }
 
-.css_restaurant_additional_info_time p {
+.css_restauran_additional_info_time p {
     margin: 0px;
     display: flex;
     align-items: center;
@@ -58,6 +58,12 @@
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
 }
 
+.css_type_menu {
+    margin-left: 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
 .nav_snacks {
     padding-left: 0;
 }
@@ -66,6 +72,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #626262;
+    cursor: pointer;
 }
 
 .css_nav_menu_view:hover {
@@ -73,9 +80,33 @@
     color: #327430;
 }
 
-.css_nav_menu_view:focus {
+.css_nav_menu_radio {
+    display: none;
+}
+
+input[type=radio]:checked~label {
+    font-weight: 600;
     color: #327430;
-    font-weight: 700;
+}
+
+.css_restauran_salads {
+    display: none;
+}
+
+.css_restauran_soups {
+    display: none;
+}
+
+.css_restauran_hot_dishes {
+    display: none;
+}
+
+.css_restauran_side_dishes {
+    display: none;
+}
+
+.css_restauran_dessert {
+    display: none;
 }
 
 .css_food {
@@ -122,4 +153,10 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 21px;
+}
+
+.wrapper {
+    background: white;
+    width: 1124px;
+    margin: 0 auto;
 }
