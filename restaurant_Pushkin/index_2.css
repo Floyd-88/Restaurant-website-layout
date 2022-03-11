@@ -96,10 +96,11 @@
     display: none;
 }
 
-input[type=radio]:checked~label {
+
+/* input[type=radio]:checked~label {
     font-weight: 600;
     color: #327430;
-}
+} */
 
 .css_restauran_salads {
     display: none;
@@ -173,6 +174,14 @@ input[type=radio]:checked~label {
     margin: 0 auto;
 }
 
+.before {
+    display: none;
+}
+
+.after {
+    display: none;
+}
+
 @media (max-width: 991px) {
     .css_restauran_pushkin {
         padding-left: 1rem;
@@ -218,10 +227,10 @@ input[type=radio]:checked~label {
         align-items: center;
     }
     .css_nav {
-        padding-top: 12.5rem;
+        padding-top: 9.5rem;
     }
     .css_type_menu {
-        display: flex;
+        display: none;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -229,5 +238,49 @@ input[type=radio]:checked~label {
     .css_type_menu_line {
         border-bottom: 2px solid rgba(117, 117, 117, 0.6);
         width: 3rem;
+    }
+    .css_nav_menu {
+        display: flex;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+    .css_nav_menu ul {
+        width: 204px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .css_nav_menu_view {
+        display: none;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: black;
+        padding: 0px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    input[type=radio]:checked~label {
+        font-weight: 400;
+        color: black;
+    }
+    .nav_snacks {
+        display: block;
+    }
+    .before {
+        border: none;
+        background: none;
+        display: block;
+        width: 4rem;
+    }
+    .after {
+        border: none;
+        background: none;
+        display: block;
+        width: 4rem;
     }
 }
