@@ -6,9 +6,13 @@
     background-repeat: round;
 }
 
+.css_restauran_pushkin {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
 .css_restauran_name {
     background-color: white;
-    margin-right: 5rem;
     margin-top: 5rem;
     height: 200px;
 }
@@ -52,8 +56,16 @@
 }
 
 .css_nav_menu {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #FFFFFF;
+}
+
+.css_nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
     background-color: white;
     border-bottom: 1px solid rgba(117, 117, 117, 0.2);
 }
@@ -157,6 +169,65 @@ input[type=radio]:checked~label {
 
 .wrapper {
     background: white;
-    width: 1124px;
+    max-width: 1124px;
     margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+    .css_restauran_pushkin {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .css_nav_menu {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .css_restauran {
+        padding: 5rem 0px 0px 0;
+        background-image: url(img_pushkin/photo/photo_mini.png);
+        height: 370px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .css_restauran_pushkin {
+        padding-top: 5rem;
+    }
+    .css_restauran_name {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 6px 10px rgb(0 0 0 / 11%);
+    }
+    .css_restauran_name h1 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .css_restauran_additional_info {
+        display: flex;
+        flex-direction: column;
+    }
+    .css_restauran_additional_info_style {
+        margin: 0 auto;
+    }
+    .css_restauran_additional_info {
+        display: flex;
+        align-items: center;
+    }
+    .css_nav {
+        padding-top: 12.5rem;
+    }
+    .css_type_menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .css_type_menu_line {
+        border-bottom: 2px solid rgba(117, 117, 117, 0.6);
+        width: 3rem;
+    }
 }
